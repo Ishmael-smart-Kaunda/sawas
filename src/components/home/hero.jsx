@@ -1,7 +1,7 @@
 import farmImage1 from "../../assets/images/hero/agribusiness/farm1.jpeg"
 import farmImage2 from "../../assets/images/hero/agribusiness/farm2.jpeg"
 import farmImage3 from "../../assets/images/hero/agribusiness/farm3.jpeg"
-import consultImage1 from '../../assets/images/hero/cleaning/Office1.jpeg'
+import consultImage1 from '../../assets/images/hero/cleaning/office1.jpeg'
 
 export default function Hero(){
                                return(
