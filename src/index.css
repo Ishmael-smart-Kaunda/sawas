@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.hero{
+      animation: bg-animation 20s step-end infinite;
+}
+.service-container::-webkit-scrollbar{
+    height: 1px;
+
+}
+@keyframes bg-animation {
+            0%{
+                 background: linear-gradient(to right, rgb(246, 248, 246), rgb(31, 109, 182));
+                 
+            }
+            25%{
+              background: linear-gradient(to right, rgb(236, 240, 241), rgb(31, 177, 92));
+            }
+            50%{
+              background: linear-gradient(to right, rgb(32, 37, 36), rgb(14, 125, 189));
+            }
+            100%{
+              background: linear-gradient(to right, rgb(18, 20, 18), rgb(48, 184, 77));
+            }
+  
+}
+:root {
+  --text: #6b6375;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
