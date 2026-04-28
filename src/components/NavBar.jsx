@@ -177,12 +177,12 @@ const NavBar = ()=>{
                      
                         </div>
                          {/* mobile menu */}
-                        <nav className={`${isOpen ? 'top-10 opacity-100': 'translate-y-[-150%] opacity-0'} fixed z-1000 transition-all duration-500  flex flex-col gap-5 md:hidden p-5 w-full min-h-[100vh] text-[19px] bg-black border-t border-t-white/30`}>
+                        <nav className={`${isOpen ? 'top-10 opacity-100': 'translate-y-[-150%] opacity-0'} fixed z-1000 transition-all duration-500  flex flex-col gap-5 md:hidden p-5 w-full min-h-[100vh] text-[17px] text-green-50 bg-black border-t border-t-white/30`}>
                             <NavLink to="/">Home</NavLink>
                                Our Services
                               <div className="px-4 space-y-7 text-[17px] ">
-                                <div className={`${isExpanded===1? 'h-fit':'h-5'} overflow-hidden pr-2`}>
-                                    <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(1)}>Agri-business services <RiArrowDropDownLine className={`${isExpanded===1?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
+                                <div className={`${isExpanded===1? 'h-fit':'h-8'} overflow-hidden pr-2`}>
+                                    <NavLink to="/" className='text-green-50 inline-flex' onClick={()=>toggleExpansion(1)}>Agri-business services <RiArrowDropDownLine className={`${isExpanded===1?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===1?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
                                             <li className="cursor-pointer hover:text-white/70">Establishment of smallholder farmer cooperatives</li>
@@ -192,7 +192,7 @@ const NavBar = ()=>{
                                         </ul>
                                 </div>
 
-                                <div className={`${isExpanded===2? 'h-fit':'h-5'} overflow-hidden pr-3`}>
+                                <div className={`${isExpanded===2? 'h-fit':'h-8'} overflow-hidden pr-3`}>
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(2)}>Agribusiness Consultancy <RiArrowDropDownLine className={`${isExpanded===2?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===2?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
@@ -203,8 +203,8 @@ const NavBar = ()=>{
                                         </ul>
                                 </div>
                              
-                                <div className={`${isExpanded===3? 'h-fit':'h-5'} overflow-hidden pr-2`}>
-                                    <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(3)}>Agricultural Extension Services <RiArrowDropDownLine className={`${isExpanded===4?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
+                                <div className={`${isExpanded===3? 'h-fit':'h-8'} overflow-hidden pr-2`}>
+                                    <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(3)}>Agricultural Extension Services <RiArrowDropDownLine className={`${isExpanded===3?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===3?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
                                             <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Professional extension support to farmers</li>
@@ -212,7 +212,7 @@ const NavBar = ()=>{
                                             <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Productivity improvement programs</li>
                                         </ul>
                                 </div>
-                                <div className={`${isExpanded===4? 'h-fit':'h-5'} overflow-hidden pr-2`}>
+                                <div className={`${isExpanded===4? 'h-fit':'h-8'} overflow-hidden pr-2`}>
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(4)}>Market Linkages<RiArrowDropDownLine className={`${isExpanded===4?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===4?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
@@ -221,8 +221,8 @@ const NavBar = ()=>{
                                             <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Partnerships with buyers and institutions</li>
                                         </ul>
                                 </div>
-                                <div className={`${isExpanded===5? 'h-fit':'h-5'} overflow-hidden pr-2`}>
-                                    <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(5)}>Waste Management & Environmental Services <RiArrowDropDownLine className={`${isExpanded===3?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
+                                <div className={`${isExpanded===5? 'h-fit':'h-8'} overflow-hidden pr-2`}>
+                                    <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(5)}>Waste Management<RiArrowDropDownLine className={`${isExpanded===5?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===5 ?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
                                             <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Agri-waste recycling and processing</li>
