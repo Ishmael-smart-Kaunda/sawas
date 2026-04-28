@@ -1,5 +1,20 @@
 import { GiFarmTractor, GiMaze, GiPlantRoots, GiTrefoilLily } from "react-icons/gi"
 import serviceImg from "../../assets/images/hero/agribusiness/farm2.jpeg"
+
+import cooperativeImg from "../../assets/images/services/agri development/cooperative.jpeg"
+import trainingImg from "../../assets/images/services/agri development/training.jpeg"
+import supportImg from "../../assets/images/services/agri development/support.jpg"
+
+import extensionImg from "../../assets/images/services/agri-extension/extension.jpeg"
+import climateSmartImg from "../../assets/images/services/agri-extension/smart-agri1.jpeg"
+import produceImg from "../../assets/images/services/agri-extension/produce.jpeg"
+
+import marketImg from "../../assets/images/services/market linkage/market.jpeg"
+import buyersImg from "../../assets/images/services/market linkage/market2.jpeg"
+import contractImg from "../../assets/images/services/market linkage/contract2.jpeg"
+
+import cleaningImg from "../../assets/images/services/waste management/cleaning.jpeg"
+
 import { Link } from "react-router-dom"
 import CTA from "./CTA"
 import { MdAgriculture, MdOutlineWaterDrop } from "react-icons/md"
@@ -35,7 +50,7 @@ export default function Services(){
 
                                                 </div>
                                             </div>
-                                            <img src={serviceImg} alt=" production" className="cursor-pointer object-covermx-auo w-full [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
+                                            <img src={cooperativeImg} alt=" production" className="cursor-pointer object-covermx-auo w-full [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
                                         </article>
 
                                         <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[49%] md:h-70 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
@@ -55,7 +70,7 @@ export default function Services(){
 
                                                 </div>
                                             </div>
-                                            <img src={serviceImg} alt=" production" className="cursor-pointer object-covermx-auo w-full [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
+                                            <img src={trainingImg} alt=" production" className="cursor-pointer object-covermx-auo w-full [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
                                         </article>
 
                                         <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[49%] md:h-70 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
@@ -75,7 +90,7 @@ export default function Services(){
 
                                                 </div>
                                             </div>
-                                            <img src={serviceImg} alt=" production" className="cursor-pointer object-cover [clip-path:circle(50%_at_35%)] w-full md:[clip-path:circle(90%_at_50%)]"/>
+                                            <img src={supportImg} alt=" production" className="cursor-pointer object-cover [clip-path:circle(50%_at_35%)] w-full md:[clip-path:circle(90%_at_50%)]"/>
                                         </article> 
                                 </div>
 
@@ -224,12 +239,12 @@ export default function Services(){
                                     <p className="cursor-pointer underline">Explore</p>
                                     </div>
                                 
-                                    <h1 className="mt-6 mb-3">Recycle, compost, segregate. Turn your waste into community value</h1>
+                                    <h1 className="mt-6 mb-3"></h1>
                                     
                                     <div className="grid grid-clos-1 md:grid-cols-3  gap-6 gap-y-10 my-5 md:px-25">
 
                                          <article className="group relative overflow-hidden h-90 rounded-[20px] ">
-                                            <img src={serviceImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
+                                            <img src={extensionImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                             <div className="absolute bottom-0 h-6/10 w-full m-auto space-y-4 bg-white rounded-t-[20px] flex flex-col p-3">
                                                 <span className="flex flex-row items-center justify-between text-md font-semibold text- text-black ">Professional extension support<FiArrowRight className="text-green-800 hover:-rotate-45 border rounded-full transition-all duration-500"/> </span>
                                                 <p className=" ">
@@ -240,7 +255,7 @@ export default function Services(){
                                         </article> 
 
                                         <article className="group relative overflow-hidden h-90 rounded-[20px] ">
-                                            <img src={serviceImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
+                                            <img src={climateSmartImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                             <div className="absolute bottom-0 h-6/10 w-full m-auto space-y-4 bg-white rounded-t-[20px] flex flex-col p-3">
                                                 <span className="flex flex-row items-center justify-between text-md font-semibold text- text-black ">Climate-smart agriculture<FiArrowRight className="text-green-800 hover:-rotate-45 border rounded-full transition-all duration-500"/> </span>
                                                 <p className=" ">
@@ -251,7 +266,7 @@ export default function Services(){
                                             </div> 
                                         </article> 
                                         <article className="group relative overflow-hidden h-90 rounded-[20px] ">
-                                            <img src={serviceImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
+                                            <img src={produceImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                             <div className="absolute bottom-0 h-6/10 w-full m-auto space-y-4 bg-white rounded-t-[20px] flex flex-col p-3">
                                                 <span className="flex flex-row items-center justify-between text-md font-semibold text- text-black ">Productivity improvement programs<FiArrowRight className="text-green-800 hover:-rotate-45 border rounded-full transition-all duration-500"/> </span>
                                                 <p className=" ">
@@ -290,7 +305,20 @@ export default function Services(){
                                                 </div> 
             
                                             </div>
-                                            <img src={serviceImg} alt=" production" className="cursor-pointer object-covermx-auo w-full h0 [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
+                                            <img src={marketImg} alt=" production" className="cursor-pointer object-covermx-auo w-full h0  md:w-1/2 hover:opacity-90 "/>
+                                        </article>
+                                         <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[50%] md:h-70 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
+                                            <div className="flex flex-col gap-5 h-9/10 justify-between w-full md:w-6/10 ">
+                                                <div className="flex flex-col md:justify-between gap-3 h">
+                                                    <h4 className="text-[16px] md:text-md font-bold text-green-600 uppercase">Facilitating contract farming arrangements</h4>
+                                                    <p className="text-gray-500 text-[16px] text-left">
+                                                       We negotiate and draft agreements that protect both farmer and buyer. Guaranteed off-take, 
+                                                       fixed prices, and clear terms-no surprises.
+                                                    </p> 
+                                                </div> 
+            
+                                            </div>
+                                            <img src={contractImg} alt=" production" className="cursor-pointer object-covermx-auo w-full h0  md:w-1/2 hover:opacity-90 "/>
                                         </article>
                                         <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[50%] md:h-70 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
                                             <div className="flex flex-col gap-5 h-9/10 justify-between w-full md:w-6/10 ">
@@ -303,21 +331,9 @@ export default function Services(){
                                                 </div> 
             
                                             </div>
-                                            <img src={serviceImg} alt=" production" className="cursor-pointer object-covermx-auo w-full h0 [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
+                                            <img src={buyersImg} alt=" production" className="cursor-pointer object-covermx-auo w-full h0 [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
                                         </article>
-                                        <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[50%] md:h-70 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
-                                            <div className="flex flex-col gap-5 h-9/10 justify-between w-full md:w-6/10 ">
-                                                <div className="flex flex-col md:justify-between gap-3 h">
-                                                    <h4 className="text-[16px] md:text-md font-bold text-green-600 uppercase">Facilitating contract farming arrangements</h4>
-                                                    <p className="text-gray-500 text-[16px] text-left">
-                                                       We negotiate and draft agreements that protect both farmer and buyer. Guaranteed off-take, 
-                                                       fixed prices, and clear terms-no surprises.
-                                                    </p> 
-                                                </div> 
-            
-                                            </div>
-                                            <img src={serviceImg} alt=" production" className="cursor-pointer object-covermx-auo w-full h0 [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
-                                        </article>
+                                       
                                       {/*  <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[49%] md:h-70 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
                                             <div className="flex flex-col gap-5 h-9/10 justify-between w-full md:w-6/10 ">
                                                 <div className="flex flex-col md:justify-between gap-3 h">
@@ -371,7 +387,7 @@ export default function Services(){
                                      <div className="grid grid-clos-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-10 my-5">
                                         
                                         <article className="group relative overflow-hidden h-50 rounded-md">
-                                            <img src={serviceImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
+                                            <img src={cleaningImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                             <div className="relative p-4 h-fit w-9/10 m-auto space-y-4 border bg-black/70 rounded-lg flex flex-col justify-between translate-y-[50%] transition-all duration-500">
                                                 <h4 className="text-lg font-bold text-white uppercase">Agri-waste recycling and processing</h4>
                                                 <a href="/" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></a>                                       
@@ -381,7 +397,7 @@ export default function Services(){
 
                                         </article> 
                                         <article className="group relative overflow-hidden h-50 rounded-md">
-                                            <img src={serviceImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
+                                            <img src={cleaningImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                             <div className="relative p-4 h-fit w-9/10 m-auto space-y-4 border bg-black/65 rounded-lg flex flex-col justify-between translate-y-[50%] transition-all duration-500">
                                                 <h4 className="text-lg font-bold text-white uppercase">Compost production and organic inputs</h4>
                                                 <a href="/" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></a>                                       
@@ -389,7 +405,7 @@ export default function Services(){
                                             </div> 
                                         </article> 
                                         <article className="group relative overflow-hidden h-50 rounded-md">
-                                            <img src={serviceImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
+                                            <img src={cleaningImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                             <div className="relative p-4 h-fit w-9/10 m-auto space-y-4 border bg-black/65 rounded-lg flex flex-col justify-between translate-y-[50%] transition-all duration-500">
                                                 <h4 className="text-lg font-bold text-white uppercase">Environmental cleaning and sanitation services</h4>
                                                 <a href="/" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></a>                                       
