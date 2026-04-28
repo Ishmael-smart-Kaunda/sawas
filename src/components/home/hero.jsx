@@ -27,8 +27,8 @@ export default function Hero(){
                                                              <p className="py px-3 rounded-lg bg-black/10 text-amber-400 text-[16px] w-fit">Farms</p>
                                                              <p className="py- px-3 rounded-lg bg-black/10 text-amber-400 text-[16px] w-fit">Trainings</p>
                                                   </div>
-                                                  <h1 className="text-4xl font-bold ">AGRICULTURE AND WASTE MANAGEMENT SOLUTIONS</h1>
-                                                  <p className="">A leading provider of sustainable agribusiness and environmental <br/> soliutions in Malawi and beyond</p>
+                                                  <h1 className="text-4xl font-bold uppercase">Sustainable Agribusiness & Waste Management Solutions</h1>
+                                                  <p className="">Transforming agricultural waste into value- empowering Malawian farmers and communities with practical, eco-friendly solutions.</p>
                                                   <div className=" inline-flex gap-3 w-full text-white font-semibold">
                                                         <button className="cursor-pointer w-full md:w-4/10 p-3 bg-green-600 rounded-sm">Explore</button>
                                                         <button className="cursor-pointer w-full md:w-3/10 px-3 py-1 bg-blue-600 rounded-sm">Contact Us</button>

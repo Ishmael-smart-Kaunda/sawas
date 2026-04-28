@@ -7,9 +7,8 @@ export default function About(){
                                             className=" absolute inset-0 w-full h-full object-cover mix-blend-overlay"/>
                                             <div className="absolute top-1/2 translate-y-[-50%] space-y-6 px-5">
                                                 <p className="text-jusify md: text-center text-white font-semibold w-full md:w-1/2 mx-auto my-4">
-                                                    Committed to transforming communities through sustainable
-                                                    agribusiness consultancy, effective agriculture, expert waste management,
-                                                    and professional cleaning services.
+                                                    We turn crop residues into compost, link smallholders to ready 
+                                                    markets, and build climate-smart farms. No theories only, field tested solutions that work for Malawi.
                                                 </p>
                                             </div>
     

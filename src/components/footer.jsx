@@ -32,7 +32,7 @@ export default function Footer(){
                                                     <span className="flex flex-row items-center gap-2">
                                                         <BiLogoWhatsapp className="size-6 "/>
                                                 
-                                                        <a href="mailto:pbleb.dolp@gmail.com " className="text-amber-100 text-sm text-orange-700">pbleb.dolp@gmail.com </a>
+                                                        <a href="3" className="text-amber-100 text-sm text-orange-700">+265 993 674 530 </a>
                                                     </span> 
                                                       
                                                 </address>
