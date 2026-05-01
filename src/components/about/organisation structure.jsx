@@ -11,7 +11,7 @@ export default function OrgStructure(){
                             }
                              return(
                                     <div className="w-full bg-green-50/50 p-5">
-                                        <div className={`${isExpanded ? 'h-0 md:h-200 bg-white' : 'h-20 bg-black/10'} cursor-pointer overflow-hidden  w-full border-2 border-gray-950/5 rounded-xl p-5 my-5 transition-all duration-500`}
+                                        <div className={`${isExpanded ? 'h-70 md:h-200 bg-white' : 'h-20 bg-black/10'} cursor-pointer overflow-hidden  w-full border-2 border-gray-950/5 rounded-xl p-5 my-5 transition-all duration-500`}
                                              onClick={toggleExpansion}
                                         >
                                             <span className="w-full  text-[22px] font-semibold inline-flex items-center justify-between">Organizations Structure <RiArrowDownBoxFill className="" /></span>

@@ -18,7 +18,7 @@ export default function AgriDevlopment(){
                                                     
                                                     <div className="service-container w-full flex flex-row overflow-x-auto [&::-webkit-scrollbar]:hidden  gap-6 rounded-xl my-3 py-2">
                                                             
-                                                            <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[700px] md:min-h-70 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 transition-all duration-500">
+                                                            <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[700px] md:min-h-70 md:max-h-80 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 transition-all duration-500">
                                                                 <div className="flex flex-col gap-5 h-9/10 justify-between w-full md:w-6/10 ">
                                                                     <div className="flex flex-col md:justify-between gap-3 h">
                                                                         <h4 className="text-[16px] md:text-md font-bold text-green-600 uppercase">Establishing smallholder farmers cooperatives</h4>
@@ -39,7 +39,7 @@ export default function AgriDevlopment(){
                                                                 <img src={cooperativeImg} alt=" production" className="cursor-pointer object-covermx-auo w-full [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
                                                             </article>
                     
-                                                            <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[700px] md:min-h-70 max-h-80 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
+                                                            <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[700px] md:min-h-70 md:max-h-80 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
                                                                 <div className="flex flex-col gap-5 h-9/10 justify-between w-full md:w-6/10 ">
                                                                     <div className="flex flex-col md:justify-between gap-3 h">
                                                                         <h4 className="text-[16px] md:text-md font-bold text-green-600 uppercase">Agribusiness training and capacity building</h4>
@@ -59,7 +59,7 @@ export default function AgriDevlopment(){
                                                                 <img src={trainingImg} alt=" production" className="cursor-pointer object-cover w-full [clip-path:circle(50%_at_35%)] md:w-1/2 hover:opacity-90 md:[clip-path:circle(90%_at_50%)]"/>
                                                             </article>
                     
-                                                            <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[700px] md:min-h-70 max-h-80 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
+                                                            <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[700px] md:min-h-70 md:max-h-80 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 hover:shadow-zinc-400 transition-all duration-500">
                                                                 <div className="flex flex-col gap-5 h-9/10 justify-between w-full md:w-6/10 ">
                                                                     <div className="flex flex-col md:justify-between gap-3 h">
                                                                         <h4 className="text-[16px] md:text-md font-bold text-green-600 uppercase">Farm management and production support</h4>
