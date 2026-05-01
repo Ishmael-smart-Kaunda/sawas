@@ -6,9 +6,9 @@ import { BiLogoWhatsapp, BiMailSend, BiPhone, BiPhoneCall } from "react-icons/bi
 
 export default function Footer(){
                                 return(
-                                        <footer className="relative border text-black w-full grid grid-rows-2 grid-cols-1 bg-emerald-950 py-2 h-100 px-5 ">
-                                            <div className="social w-full space-y-10">
-                                                <h1 className="text-gray-400 font-semibold">follow us</h1>
+                                        <footer className="  text-black w-full grid grid-cols-1 bg-emerald-950 py-2 px-5 ">                                            
+                                        <div className="social w-full space-y-10">
+                                                <h1 className="text-gray-400  font-semibold">follow us</h1>
                                                 <div className="inline-flex items-center gap-4">
                                                    <span className="cursor-pointer p-1 bg-green-50/20 text-emerald-950 rounded-md hover:bg-green-100/60 transition-all duration-500"><RiFacebookLine className="size-8" /> </span>
                                                    <span className="cursor-pointer p-1 bg-green-50/20 text-emerald-950 rounded-md hover:bg-green-100/60 transition-all duration-500"><RiLinkedinLine className="size-8"/></span>
@@ -48,7 +48,7 @@ export default function Footer(){
 
                                                 
                                             </div>
-                                            <p className="absolute w-full bottom-4 left-1/2 translate-x-[-50%] text-center text-green-50/50 text-[14px]">© 2026 SAWAs — All rights reserved</p>
+                                            <p className=" text-center text-green-50/50 text-[14px]">© 2026 SAWAs — All rights reserved</p>
                                         </footer>
                                 )
 }

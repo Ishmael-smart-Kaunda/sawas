@@ -47,7 +47,13 @@ const NavBar = ()=>{
                                        "
                                        >
                             <div className="inline-flex justify-between w-full px-5 py-2">
-                                  <span className="text-green-600">SAWAs Limited</span>
+                                   <NavLink to="/">
+                                     <span className="text-green-600">SAWAs Limited</span>
+                                    </NavLink>
+                                  <div className="hidden md:inline-flex gap-10 text-yellow-600 font-bold">
+                                    <NavLink  to="/about" className='border border-black/0 px-5 py-1'>About Us</NavLink>
+                                    <NavLink to="/contact" className='text-white px-5 py-1 bg-green-700 rounded-md'>Contact</NavLink>
+                                  </div>
 
                                   <RiMenu3Line onClick={toggleOpen} className="cursor-pointer md:hidden size-6"/>
                             </div>
@@ -241,8 +247,8 @@ const NavBar = ()=>{
 
 
 
-                            <NavLink to="/">About Us</NavLink>
-                            <NavLink to="/">Contact</NavLink>
+                            <NavLink to="/about">About Us</NavLink>
+                            <NavLink to="/contact">Contact</NavLink>
                         </nav>
                         </>
                  )
