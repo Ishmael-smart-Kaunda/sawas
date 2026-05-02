@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import CTAimg from "../../assets/images/hero/consultancy/consult1.jpeg"
 
 export default function CTA(){
@@ -11,7 +12,7 @@ export default function CTA(){
                                             </p>
                                             <div className=" flex flex-col justify-between md:flex-row gap-3 w-full md:w-fit mx-auto text-white font-semibold">
                                                         <button className="cursor-pointer w-full md:w-[250px] p-3 border border-white/60 rounded-sm">Get Agri-business right</button>
-                                                        <button className="cursor-pointer w-full md:w-[250px] p-3  bg-blue-600 rounded-sm hover:bg-blue-700">Contact Us</button>
+                                                        <Link to='/contact' className="cursor-pointerw-full md:w-[200px] px-10 py-2 text-center bg-blue-600 rounded-sm hover:opacity-60" > Contact Us</Link>
                                             </div>
                                         </div>
 

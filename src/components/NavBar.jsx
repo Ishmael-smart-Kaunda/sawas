@@ -71,11 +71,11 @@ const NavBar = ()=>{
                                         <RiArrowDropDownLine className="size-5 group-hover:rotate-180 transition-all duration-500"/>
                                     </p>
                                     
-                                    <ul className="absolute top-full left-[%] text-centr text-black invisible space-y-2 z-50 font-normal rounded-sm translate-x- -mt-2 opacity-0 
+                                    <ul className="absolute top-full flex flex-col left-[%] text-centr text-black invisible space-y-2 z-50 font-normal rounded-sm translate-x- -mt-2 opacity-0 
                                                    group-hover:opacity-100 group-hover:mt-3 group-hover:visible bg-green-50 w-fit  h-fit p-2 translate-all duration-500">
-                                        <li className="cursor-pointer hover:text-emerald-700">Establishment of smallholder farmer cooperatives</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Agribusiness training and capacity building</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Farm management and production support</li>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Establishment of smallholder farmer cooperatives</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Agribusiness training and capacity building</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Farm management and production support</Link>
  
                                     </ul>
                                 </div>
@@ -91,11 +91,11 @@ const NavBar = ()=>{
                                         <RiArrowDropDownLine className="size-5 group-hover:rotate-180 transition-all duration-500"/>
                                     </p>
                                     
-                                    <ul className="absolute top-full left-[-%] text-centr text-black invisible space-y-2 z-50 font-normal rounded-sm translate-x- -mt-2 opacity-0 
+                                    <ul className="absolute top-full flex flex-col left-[-%] text-centr text-black invisible space-y-2 z-50 font-normal rounded-sm translate-x- -mt-2 opacity-0 
                                                    group-hover:opacity-100 group-hover:mt-3 group-hover:visible bg-green-50 w-fit  h-fit p-2 translate-all duration-500">
-                                        <li className="cursor-pointer hover:text-emerald-700">Business planning and advisory services</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Value chain development</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Market research and feasibility studies</li>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Business planning and advisory services</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Value chain development</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Market research and feasibility studies</Link>
                                       
 
                                     </ul>
@@ -110,11 +110,11 @@ const NavBar = ()=>{
                                         <RiArrowDropDownLine className="size-5 group-hover:rotate-180 transition-all duration-500"/>
                                     </p>
                                     
-                                    <ul className="absolute top-full text-centr text-black invisible space-y-2 font-normal rounded-sm translate-x- -mt-2 opacity-0 
+                                    <ul className="absolute top-full flex flex-col text-centr text-black invisible space-y-2 font-normal rounded-sm translate-x- -mt-2 opacity-0 
                                                    group-hover:opacity-100 group-hover:mt-3 group-hover:visible bg-green-50 w-fit  h-fit p-2 translate-all duration-500">
-                                        <li className="cursor-pointer hover:text-emerald-700">Professional extension support to farmers</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Climate-smart agriculture practices</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Productivity improvement programs</li>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Professional extension support to farmers</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Climate-smart agriculture practices</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Productivity improvement programs</Link>
                                         
                                     </ul>
                                 </div>
@@ -130,11 +130,11 @@ const NavBar = ()=>{
                                         <RiArrowDropDownLine className="size-5 group-hover:rotate-180 transition-all duration-500"/>
                                     </p>
                                     
-                                    <ul className="absolute top-full text-centr text-black invisible space-y-2 z-50 font-normal rounded-sm translate-x- -mt-2 opacity-0 
+                                    <ul className="absolute top-full flex flex-col text-centr text-black invisible space-y-2 z-50 font-normal rounded-sm translate-x- -mt-2 opacity-0 
                                                    group-hover:opacity-100 group-hover:mt-3 group-hover:visible bg-green-50 w-fit  h-fit p-2 translate-all duration-500">
-                                        <li className="cursor-pointer hover:text-emerald-700">Connecting farmers to markets</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Facilitating contract farming arrangements</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Partnering with buyers and institutions</li>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Connecting farmers to markets</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Facilitating contract farming arrangements</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Partnering with buyers and institutions</Link>
                                      
                                     </ul>                                         
 
@@ -151,11 +151,11 @@ const NavBar = ()=>{
                                         <RiArrowDropDownLine className="size-5 group-hover:rotate-180 transition-all duration-500"/>
                                     </p>
                                     
-                                    <ul className="absolute top-full text-centr text-black invisible space-y-2 z-50 font-normal rounded-sm translate-x- -mt-2 opacity-0 
+                                    <ul className="absolute top-full text-centr text-black flex flex-col invisible space-y-2 z-50 font-normal rounded-sm translate-x- -mt-2 opacity-0 
                                                    group-hover:opacity-100 group-hover:mt-3 group-hover:visible bg-green-50 w-fit  h-fit p-2 translate-all duration-500">
-                                        <li className="cursor-pointer hover:text-emerald-700">Agri-waste recycling and processing</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Compost production and organic inputs</li>
-                                        <li className="cursor-pointer hover:text-emerald-700">Environmental cleaning and sanitation services</li>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Agri-waste recycling and processing</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Compost production and organic inputs</Link>
+                                        <Link to='/services' className="cursor-pointer hover:text-emerald-700">Environmental cleaning and sanitation services</Link>
                                      
                                     </ul>                                         
 
@@ -190,10 +190,10 @@ const NavBar = ()=>{
                                 <div className={`${isExpanded===1? 'h-fit':'h-8'} overflow-hidden pr-2`}>
                                     <NavLink to="/" className='text-green-50 inline-flex' onClick={()=>toggleExpansion(1)}>Agri-business services <RiArrowDropDownLine className={`${isExpanded===1?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
-                                                    ${isExpanded===1?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
-                                            <li className="cursor-pointer hover:text-white/70">Establishment of smallholder farmer cooperatives</li>
-                                            <li className="cursor-pointer hover:text-white/70">Agribusiness training and capacity building</li>
-                                            <li className="cursor-pointer hover:text-white/70">Farm management and production support</li>
+                                                    ${isExpanded===1?'opacity-100 ml-1':'opacity-50 ml-20'}  bg-green-500 text-black w-full p-2 translate-all duration-500`}>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/70">Establishment of smallholder farmer cooperatives</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/70">Agribusiness training and capacity building</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/70">Farm management and production support</Link>
                                             
                                         </ul>
                                 </div>
@@ -202,9 +202,9 @@ const NavBar = ()=>{
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(2)}>Agribusiness Consultancy <RiArrowDropDownLine className={`${isExpanded===2?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===2?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Business planning and advisory services</li>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Value chain development</li>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Market research and feasibility studies</li>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Business planning and advisory services</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Value chain development</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Market research and feasibility studies</Link>
                                                                                                      
                                         </ul>
                                 </div>
@@ -213,27 +213,27 @@ const NavBar = ()=>{
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(3)}>Agricultural Extension Services <RiArrowDropDownLine className={`${isExpanded===3?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===3?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Professional extension support to farmers</li>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Climate-smart agriculture practices</li>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Productivity improvement programs</li>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Professional extension support to farmers</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Climate-smart agriculture practices</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Productivity improvement programs</Link>
                                         </ul>
                                 </div>
                                 <div className={`${isExpanded===4? 'h-fit':'h-8'} overflow-hidden pr-2`}>
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(4)}>Market Linkages<RiArrowDropDownLine className={`${isExpanded===4?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===4?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Connecting farmers to reliable markets</li>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Facilitating contract farming arrangements</li>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Partnerships with buyers and institutions</li>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Connecting farmers to reliable markets</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Facilitating contract farming arrangements</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Partnerships with buyers and institutions</Link>
                                         </ul>
                                 </div>
                                 <div className={`${isExpanded===5? 'h-fit':'h-8'} overflow-hidden pr-2`}>
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(5)}>Waste Management<RiArrowDropDownLine className={`${isExpanded===5?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
                                                     ${isExpanded===5 ?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Agri-waste recycling and processing</li>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Compost production and organic inputs</li>
-                                            <li className="cursor-pointer hover:text-white/60 translate-all duration-500">Environmental cleaning and sanitation services</li>                                         
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Agri-waste recycling and processing</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Compost production and organic inputs</Link>
+                                            <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Environmental cleaning and sanitation services</Link>                                         
                                                                                   
                                         </ul>
                                 </div>

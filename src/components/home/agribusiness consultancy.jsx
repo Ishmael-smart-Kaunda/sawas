@@ -4,6 +4,7 @@ import trainingImg from "../../assets/images/services/agri development/training.
 import supportImg from "../../assets/images/services/agri development/support.jpg"
 
 import { GiFarmTractor, GiMaze, GiPlantRoots, GiTrefoilLily } from "react-icons/gi"
+import { Link } from "react-router-dom"
 
 
 
@@ -13,7 +14,7 @@ export default function AgriConsultancy(){
                                                     <div className=" w-full my-20 bg-gree-50">
                                                         <div className="inline-flex justify-between w-full font-semibold text-yellow-700">
                                                             <p className="">Agribusiness Consultancy</p> 
-                                                            <p className="cursor-pointer underline">Explore</p>
+                                                            <Link to='/services' className="cursor-pointer underline">Explore</Link>
                                                         </div>
                                                     
                                                         <h1 className="mt-6 mb-3">Smart farm planning, climate-smart advice, and M&E that works for better</h1>
@@ -39,7 +40,7 @@ export default function AgriConsultancy(){
                                                                         Whether you're starting a farm-to-market venture or scaling an agribusiness, 
                                                                         we help you make informed, profitable decisions.
                                                                     </p> 
-                                                                    <p className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</p>
+                                                                    <a href="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</a>
                                                                 </div> 
                                                             </article>
                     
@@ -56,7 +57,7 @@ export default function AgriConsultancy(){
                                                                         We analyze your entire chain -from production to final buyer-and identify where you can cut costs, add value, and
                                                                         increase margins. Practical steps, not abstract theories.
                                                                     </p> 
-                                                                    <p className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</p>
+                                                                    <a href="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</a>
                                                                 </div> 
                                                             </article>
                     
@@ -73,7 +74,7 @@ export default function AgriConsultancy(){
                                                                         Before you invest, let us test the ground. We study demand, competition, and logistics so you know if your 
                                                                         agribusiness idea will work -and how to make it work better.
                                                                     </p> 
-                                                                    <p className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</p>
+                                                                    <a href="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</a>
                                                                 </div> 
                                                             </article>
                     

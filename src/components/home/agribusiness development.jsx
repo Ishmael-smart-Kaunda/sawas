@@ -3,20 +3,39 @@ import cooperativeImg from "../../assets/images/services/agri development/cooper
 import trainingImg from "../../assets/images/services/agri development/training.jpeg"
 import supportImg from "../../assets/images/services/agri development/support.jpg"
 
+import { useRef } from "react"
+import { Link } from "react-router-dom";
+
 
 
 
 export default function AgriDevlopment(){
+
+                                    
+                                        const containerRef = useRef(null);
+
+                                        const scroll =(offset)=>{
+                                            if(containerRef.current){
+                                                containerRef.current.scrollTo({
+                                                    left: containerRef.current.scrollLeft + offset,
+                                                    behaviour:'smooth'
+                                            })
+                                            }
+                                        
+                                    }
+                                     
+
+                                   
                                     return(
                                              <section className="w-full  px-5">
                                                     <div className="inline-flex justify-between w-full font-semibold text-yellow-700">
                                                         <p className="">Agribusiness Development</p> 
-                                                        <p className="cursor-pointer underline">Explore</p>
+                                                        <Link to='/services' className="cursor-pointer underline">Explore</Link>
                                                     </div>
                                                     
                                                     <h1 className="mt-6 mb-3">From Crop production to market access, we grow success sustainability</h1>
-                                                    
-                                                    <div className="service-container w-full flex flex-row overflow-x-auto [&::-webkit-scrollbar]:hidden  gap-6 rounded-xl my-3 py-2">
+                                                     <button onClick={()=>scroll(200)}>Next</button>
+                                                    <div ref={containerRef} className="service-container w-full flex flex-row overflow-x-auto [&::-webkit-scrollbar]:hidden  gap-6 rounded-xl my-3 py-2">
                                                             
                                                             <article className="bg-black/5 flex flex-col md:flex-row flex-shrink-0 w-full md:w-[700px] md:min-h-70 md:max-h-80 p-3 gap-3 justify-between rounded-m shadow-sm shadow-zinc/200 transition-all duration-500">
                                                                 <div className="flex flex-col gap-5 h-9/10 justify-between w-full md:w-6/10 ">

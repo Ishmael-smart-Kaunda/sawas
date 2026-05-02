@@ -1,4 +1,5 @@
-import NavBar from "../components/NavBar"
+
+import NavBar from "../components/contact/navBar"
 import Header from "../components/contact/header"
 import Footer from "../components/footer"
 
@@ -23,6 +24,7 @@ export default function About(){
                                return(
                                       <div className="w-full">
                                          <NavBar/>
+                                         
                                          <Header page='About Us' pageImg={aboutImg}/>
 
                                         <section className="w-full pt-10">

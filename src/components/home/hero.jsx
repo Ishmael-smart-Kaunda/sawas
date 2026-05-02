@@ -26,15 +26,15 @@ export default function Hero(){
                                             <div className="w-full md:h-7/10 md:m-auto  pl-2 space-y-4 md:mt-[20%] text-black text-center md:text-left">
                                                   <div className="inline-flex gap-3 ">
                                                              <p className="pb-1 px-3 rounded-sm bg-black/30 text-amber-400 text-[14px] w-fit">Farms</p>
-                                                             <p className="pb-[1px] px-3 rounded-sm bg-black/30 text-amber-400 text-[14px] w-fit">Trainings</p>
+                                                             <p className="pb-1 px-3 rounded-sm bg-black/30 text-amber-400 text-[14px] w-fit">Trainings</p>
                                                              <p className="pb-1 px-3 rounded-sm bg-black/30 text-amber-400 text-[14px] w-fit">Markets</p>
-                                                             <p className="pb-[1px] px-3 rounded-sm bg-black/30 text-amber-400 text-[14px] w-fit">Composites</p>
+                                                             <p className="pb-1 px-3 rounded-sm bg-black/30 text-amber-400 text-[14px] w-fit">Composites</p>
                                                   </div>
                                                   <h1 className="text-4xl font-bold uppercase">Sustainable Agribusiness and Waste Management <br/> Solutions</h1>
                                                   <p className="">Transforming agricultural waste into value- empowering Malawian farmers and communities with practical, eco-friendly solutions.</p>
                                                   <div className=" inline-flex gap-3 w-full text-white font-semibold">
-                                                        <button className="cursor-pointer w-full md:w-4/10 p-3 bg-green-600 rounded-sm">Explore</button>
-                                                       <Link to='/contact' className="cursor-pointer w-full md:w-3/10 px-3 py-1 bg-blue-600 rounded-sm" > Contact Us</Link>
+                                                       <Link to='/services' className="cursor-pointer w-full md:w-3/10 py-2 text-center bg-green-600 rounded-sm">Explore</Link>
+                                                       <Link to='/contact' className="cursor-pointer w-full md:w-2/10 py-2 text-center bg-blue-600 rounded-sm" > Contact Us</Link>
                                                   </div>
 
                                             </div>

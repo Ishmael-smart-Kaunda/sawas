@@ -3,6 +3,7 @@ import marketImg from "../../assets/images/services/market linkage/market2.jpeg"
 import buyersImg from "../../assets/images/services/market linkage/market2.jpeg"
 import contractImg from "../../assets/images/services/market linkage/contract2.jpeg"
 import { FiArrowRight } from "react-icons/fi"
+import { Link } from "react-router-dom"
 
 
 export default function MarketLinkage(){
@@ -11,7 +12,7 @@ export default function MarketLinkage(){
                                                    <div className="px-5 w-full ">
                                                         <div className="inline-flex justify-between w-full font-semibold text-yellow-700">
                                                         <p className="">Market Linkages</p> 
-                                                        <p className="cursor-pointer underline">Explore</p>
+                                                        <Link to='/services' className="cursor-pointer underline">Explore</Link>
                                                         </div>
                                                 
                                                         <h1 className="mt-6 mb-3">Connecting farmers to reliable markets</h1>
