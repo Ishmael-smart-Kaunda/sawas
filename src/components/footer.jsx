@@ -40,9 +40,9 @@ export default function Footer(){
                                                 <div className="px-10 text-right">
                                                     <ul className="flex flex-col gap-43w-1/2 md:w-[fit-content] mt-3 text-sm text-slate-300 space-y-2">
                                                         <Link to='/' className="hover:text-indigo-300 "><a href="/">Home</a></Link>
-                                                        <Link to='/' className="hover:text-indigo-300 "><a href="#courses">Services</a></Link>
-                                                        <Link to='/' className="hover:text-indigo-300 " ><a href="#team">About</a></Link>
-                                                        <Link to='/' className="hover:text-indigo-300 " ><a href="#contact">Contact</a></Link>
+                                                        <Link to='/services' className="hover:text-indigo-300 "><a href="#courses">Services</a></Link>
+                                                        <Link to='/about' className="hover:text-indigo-300 " ><a href="#team">About</a></Link>
+                                                        <Link to='/contact' className="hover:text-indigo-300 " ><a href="#contact">Contact</a></Link>
                                                     </ul>
                                                 </div>
                                                 </div>
