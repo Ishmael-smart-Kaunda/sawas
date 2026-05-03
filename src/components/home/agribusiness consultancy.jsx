@@ -40,7 +40,7 @@ export default function AgriConsultancy(){
                                                                         Whether you're starting a farm-to-market venture or scaling an agribusiness, 
                                                                         we help you make informed, profitable decisions.
                                                                     </p> 
-                                                                    <a href="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</a>
+                                                                    <Link to="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</Link>
                                                                 </div> 
                                                             </article>
                     
@@ -57,7 +57,7 @@ export default function AgriConsultancy(){
                                                                         We analyze your entire chain -from production to final buyer-and identify where you can cut costs, add value, and
                                                                         increase margins. Practical steps, not abstract theories.
                                                                     </p> 
-                                                                    <a href="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</a>
+                                                                    <Link to="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</Link>
                                                                 </div> 
                                                             </article>
                     
@@ -74,7 +74,7 @@ export default function AgriConsultancy(){
                                                                         Before you invest, let us test the ground. We study demand, competition, and logistics so you know if your 
                                                                         agribusiness idea will work -and how to make it work better.
                                                                     </p> 
-                                                                    <a href="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</a>
+                                                                    <Link to="/services" className="cursor-pointer w-fit text-[16px] text-black font-light underline hover:text-green-600 transition-all duration-500">view more</Link>
                                                                 </div> 
                                                             </article>
                     

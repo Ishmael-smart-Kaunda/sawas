@@ -3,6 +3,7 @@ import footerImg from "../assets/images/hero/agribusiness/farm2.jpeg"
 import { MdPhone } from "react-icons/md"
 import { HiPhone } from "react-icons/hi"
 import { BiLogoWhatsapp, BiMailSend, BiPhone, BiPhoneCall } from "react-icons/bi"
+import { Link } from "react-router-dom"
 
 export default function Footer(){
                                 return(
@@ -38,10 +39,10 @@ export default function Footer(){
                                                 </address>
                                                 <div className="px-10 text-right">
                                                     <ul className="w-1/2 md:w-[fit-content] mt-3 text-sm text-slate-300 space-y-2">
-                                                        <li className="hover:text-indigo-300 "><a href="/">Home</a></li>
-                                                        <li className="hover:text-indigo-300 "><a href="#courses">Courses</a></li>
-                                                        <li className="hover:text-indigo-300 " ><a href="#team">Team</a></li>
-                                                        <li className="hover:text-indigo-300 " ><a href="#contact">Contact</a></li>
+                                                        <Link to='/' className="hover:text-indigo-300 "><a href="/">Home</a></Link>
+                                                        <Link to='/' className="hover:text-indigo-300 "><a href="#courses">Services</a></Link>
+                                                        <Link to='/' className="hover:text-indigo-300 " ><a href="#team">About Us</a></Link>
+                                                        <Link to='/' className="hover:text-indigo-300 " ><a href="#contact">Contact</a></Link>
                                                     </ul>
                                                 </div>
                                                 </div>

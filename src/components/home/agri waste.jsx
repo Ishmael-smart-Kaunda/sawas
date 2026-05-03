@@ -22,7 +22,7 @@ export default function AgriWaste(){
                                                                 <img src={cleaningImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                                                 <div className="relative p-4 h-fit w-9/10 m-auto space-y-4 border bg-black/70 rounded-lg flex flex-col justify-between translate-y-[50%] transition-all duration-500">
                                                                     <h4 className="text-lg font-bold text-white uppercase">Agri-waste recycling and processing</h4>
-                                                                    <a href="/services" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></a>                                       
+                                                                    <Link to="/services" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></Link>
                                                                     
                                                                 </div> 
                                                                         
@@ -32,7 +32,7 @@ export default function AgriWaste(){
                                                                 <img src={cleaningImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                                                 <div className="relative p-4 h-fit w-9/10 m-auto space-y-4 border bg-black/65 rounded-lg flex flex-col justify-between translate-y-[50%] transition-all duration-500">
                                                                     <h4 className="text-lg font-bold text-white uppercase">Compost production and organic inputs</h4>
-                                                                    <a href="/services" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></a>                                       
+                                                                    <Link to="/services" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></Link>
                                                                     
                                                                 </div> 
                                                             </article> 
@@ -40,7 +40,7 @@ export default function AgriWaste(){
                                                                 <img src={cleaningImg} className="absolute inset-0 object-cover  w-full h-full opacity-100 group-hover:opacity-90 transition-all duration-300"/>
                                                                 <div className="relative p-4 h-fit w-9/10 m-auto space-y-4 border bg-black/65 rounded-lg flex flex-col justify-between translate-y-[50%] transition-all duration-500">
                                                                     <h4 className="text-lg font-bold text-white uppercase">Environmental cleaning and sanitation services</h4>
-                                                                    <a href="/services" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></a>                                       
+                                                                    <Link to="/services" className=" flex flex-row gap-1 items-center font-semibold text-sm text-yellow-500 w-fit hover:text-green-700 transition-all duration-300">View all <FiArrowRight /></Link>                                       
                                                                     
                                                                 </div> 
                                                             </article> 

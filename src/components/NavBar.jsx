@@ -190,7 +190,7 @@ const NavBar = ()=>{
                                 <div className={`${isExpanded===1? 'h-fit':'h-8'} overflow-hidden pr-2`}>
                                     <NavLink to="/" className='text-green-50 inline-flex' onClick={()=>toggleExpansion(1)}>Agri-business services <RiArrowDropDownLine className={`${isExpanded===1?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
-                                                    ${isExpanded===1?'opacity-100 ml-1':'opacity-50 ml-20'}  bg-green-500 text-black w-full p-2 translate-all duration-500`}>
+                                                    ${isExpanded===1?'opacity-100 ml-1':'opacity-50 ml-20'} flex flex-col bg-green-500 text-black w-full p-2 translate-all duration-500`}>
                                             <Link to='/services' className="cursor-pointer hover:text-white/70">Establishment of smallholder farmer cooperatives</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/70">Agribusiness training and capacity building</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/70">Farm management and production support</Link>
@@ -201,7 +201,7 @@ const NavBar = ()=>{
                                 <div className={`${isExpanded===2? 'h-fit':'h-8'} overflow-hidden pr-3`}>
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(2)}>Agribusiness Consultancy <RiArrowDropDownLine className={`${isExpanded===2?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
-                                                    ${isExpanded===2?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
+                                                    ${isExpanded===2?'opacity-100 ml-1':'opacity-50 ml-20'} flex flex-col bg-green-500 text-black w-full p-2 translate-all duration-500`}>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Business planning and advisory services</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Value chain development</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Market research and feasibility studies</Link>
@@ -212,7 +212,7 @@ const NavBar = ()=>{
                                 <div className={`${isExpanded===3? 'h-fit':'h-8'} overflow-hidden pr-2`}>
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(3)}>Agricultural Extension Services <RiArrowDropDownLine className={`${isExpanded===3?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
-                                                    ${isExpanded===3?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
+                                                    ${isExpanded===3?'opacity-100 ml-1':'opacity-50 ml-20'} flex flex-col bg-green-500 text-black w-full p-2 translate-all duration-500`}>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Professional extension support to farmers</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Climate-smart agriculture practices</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Productivity improvement programs</Link>
@@ -221,7 +221,7 @@ const NavBar = ()=>{
                                 <div className={`${isExpanded===4? 'h-fit':'h-8'} overflow-hidden pr-2`}>
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(4)}>Market Linkages<RiArrowDropDownLine className={`${isExpanded===4?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
-                                                    ${isExpanded===4?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
+                                                    ${isExpanded===4?'opacity-100 ml-1':'opacity-50 ml-20'} flex flex-col bg-green-500 text-black w-full p-2 translate-all duration-500`}>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Connecting farmers to reliable markets</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Facilitating contract farming arrangements</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Partnerships with buyers and institutions</Link>
@@ -230,7 +230,7 @@ const NavBar = ()=>{
                                 <div className={`${isExpanded===5? 'h-fit':'h-8'} overflow-hidden pr-2`}>
                                     <NavLink to="/" className='inline-flex' onClick={()=>toggleExpansion(5)}>Waste Management<RiArrowDropDownLine className={`${isExpanded===5?'-rotate-180':'-rotate-90'} transtion-all duration-500 size-6.5`}/></NavLink>
                                     <ul className={`left-[-15%] text-centr text- space-y-2 font-normal rounded-sm translate-x- mt-2
-                                                    ${isExpanded===5 ?'opacity-100 ml-1':'opacity-50 ml-20'} bg-green-500 text-black w-full p-2 translate-all duration-500`}>
+                                                    ${isExpanded===5 ?'opacity-100 ml-1':'opacity-50 ml-20'} flex flex-col bg-green-500 text-black w-full p-2 translate-all duration-500`}>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Agri-waste recycling and processing</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Compost production and organic inputs</Link>
                                             <Link to='/services' className="cursor-pointer hover:text-white/60 translate-all duration-500">Environmental cleaning and sanitation services</Link>                                         
