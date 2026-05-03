@@ -38,10 +38,10 @@ export default function Footer(){
                                                       
                                                 </address>
                                                 <div className="px-10 text-right">
-                                                    <ul className="w-1/2 md:w-[fit-content] mt-3 text-sm text-slate-300 space-y-2">
+                                                    <ul className="flex flex-col gap-43w-1/2 md:w-[fit-content] mt-3 text-sm text-slate-300 space-y-2">
                                                         <Link to='/' className="hover:text-indigo-300 "><a href="/">Home</a></Link>
                                                         <Link to='/' className="hover:text-indigo-300 "><a href="#courses">Services</a></Link>
-                                                        <Link to='/' className="hover:text-indigo-300 " ><a href="#team">About Us</a></Link>
+                                                        <Link to='/' className="hover:text-indigo-300 " ><a href="#team">About</a></Link>
                                                         <Link to='/' className="hover:text-indigo-300 " ><a href="#contact">Contact</a></Link>
                                                     </ul>
                                                 </div>
